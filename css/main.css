@@ -3,6 +3,13 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -39,15 +46,23 @@ header {
     margin: 1em;
 }
 
+.full-nav {
+    position: absolute;
+    top: 3em;
+    right: 2em;
+    z-index: 1;
+    user-select: none;
+}
+
 .full-nav input {
     display: block;
     width: 40px;
     height: 32px;
     position: absolute;
-    top: 64px;
-    right: 25px;
+    /* top: 64px;
+    right: 25px; */
     cursor: pointer;
-    z-index:11;
+    z-index:2;
     opacity: 0;
 }
 
@@ -59,10 +74,51 @@ header {
     margin-bottom: 5px;
     position: relative;
     border-radius: 3px;
+    transform-origin: 4px 0px;
+    transition-property: transform, background, opacity;
+    transition-duration: 0.5s, 0.5s, 0.55s;
+    transition-timing-function: cubic-bezier(0.77, 0.2, 0.05, 1), cubic-bezier(0.77, 0.2, 0.05, 1), ease;
+    transition-delay: 0s, 0s, 0s;
+}
+
+header .full-nav input:checked ~ ul {
+    transform: scale(1, 1);
+    opacity: 1;
+}
+
+header .full-nav span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+    background: black;
+}
+
+header .full-nav input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: black;
+}
+
+header .full-nav input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+    background: black;
+}
+
+header .full-nav input:checked ~ span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+    background: black;
 }
 
 .nav-list {
     background-color: lightseagreen;
+    position: absolute;
+    margin: -100px 0 0 -80px;
+    padding: 20px;
+    padding-top: 125px;
+    transform-origin: 0% 0%;
+    transform: translate(180%, 0%);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    z-index: -1;
 }
 
 .header-li {
