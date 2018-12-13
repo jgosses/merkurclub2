@@ -110,7 +110,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 }
 
 .nav-list {
-    background-color: lightseagreen;
+    background-color: #79a9c5;
     position: absolute;
     margin: -100px 0 0 -80px;
     padding: 20px;
