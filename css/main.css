@@ -26,7 +26,7 @@ a {
 /* Nav items */
 .header-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 11em;
     max-width: 100%;
@@ -35,15 +35,13 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    width: 25em;
-}
-
-#main-title {
-    font-size: 25px;
+    max-width: 100%;
 }
 
 .logo-title {
-    margin: 1em;
+    margin: 2em;
+    height: 40px;
+    width: 40px;
 }
 
 .full-nav {
@@ -134,12 +132,28 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     justify-content: center;
 }
 
+#main-title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 16em;
+}
+
+#sub-title {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0em;
+}
+
 /********** Tablet Styles *************/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+/* Nav items */
 
 }
 
 /********** Desktop Styles *************/
 @media only screen and (min-width: 961px) {
+/* Nav items */
 
 }
