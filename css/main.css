@@ -6,6 +6,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -18,17 +19,20 @@ a {
 #container {
     display: flex;
     flex-direction: column;
-    justify-content: row;
+    /* justify-content: row; */
     max-width: 100%;
-    height: 64em;
+    /* height: 64em; */
+    height: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 /* Nav items */
 .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 11em;
+    /* align-items: center; */
+    height: 22em;
     max-width: 100%;
 }
 
@@ -149,11 +153,16 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
 /* Nav items */
-
+#main-title {
+    width: 100%;
+}
 }
 
 /********** Desktop Styles *************/
 @media only screen and (min-width: 961px) {
-/* Nav items */
 
+    /* Nav items */
+#main-title {
+    width: 100%;
+}
 }
