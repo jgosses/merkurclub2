@@ -7,6 +7,10 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    height: 64em;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -32,7 +36,7 @@ a {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    height: 22em;
+    /* height: 22em; */
     max-width: 100%;
 }
 
