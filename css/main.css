@@ -53,9 +53,11 @@ header {
 }
 
 .mca-logo-header {
-    height: 39.67px;
-    width:100px;
-    margin: 7px 0px 0px 0px;
+    height: 69.67px;
+    width:150px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
 }
 
 .full-nav {
@@ -165,14 +167,38 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 /* Nav items */
 #main-title {
     width: 100%;
+    font-size: 35px;
+}
+/* Header */
+.mca-logo-header {
+    height: 69.67px;
+    width:150px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
 }
 }
 
 /********** Desktop Styles *************/
 @media only screen and (min-width: 961px) {
 
-    /* Nav items */
+/* Full Page Formatting */
+body {
+    margin: 0em 2em 0em 2em;
+}
+
+/* Nav items */
 #main-title {
     width: 100%;
+    position: relative;
+    bottom: 1.2em;
+    left: 10px;
+    font-size: 50px;
+}
+
+/* Header */
+.mca-logo-header {
+    height: 69.67px;
+    width:170px;
 }
 }
