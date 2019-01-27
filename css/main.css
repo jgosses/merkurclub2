@@ -52,6 +52,12 @@ header {
     width: 40px;
 }
 
+.mca-logo-header {
+    height: 39.67px;
+    width:100px;
+    margin: 7px 0px 0px 0px;
+}
+
 .full-nav {
     position: absolute;
     top: 3em;
