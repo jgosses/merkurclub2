@@ -60,9 +60,10 @@ header {
     bottom: 10px;
 }
 
-/*.logo-bring-home {
-    position: fixed;
-} */
+.logo-bring-home {
+    position: absolute;
+    z-index: 1;
+}
 
 .full-nav {
     position: fixed;
