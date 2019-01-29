@@ -181,8 +181,43 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    height: 25em;
+    /* height: 25em; */
     align-items: center;
+    margin: 10px;
+}
+
+.footer_img1 {
+    height: 51px;
+    width: 157px;
+    margin: 2px;
+}
+.footer_img2 {
+    height: 74px;
+    width: 169.5px;
+    margin: 2px;
+}
+.footer_img3 {
+    height: 40px;
+    width: 142px;
+    margin: 2px;
+}
+.footer_img4 {
+    height: 75px;
+    width: 138px;
+    margin: 2px;
+}
+.footer_img5 {
+    height: 42px;
+    width: 148px;
+    margin: 2px;
+}
+.footer_img6 {
+    height: 74px;
+    width: 150px;
+    margin: 2px;
+}
+.footer-imgs-sub1 {
+    display: contents;
 }
 /********** Tablet Styles *************/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
@@ -200,6 +235,13 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     right: 10px;
     bottom: 10px;
 }
+/* FOOTER */
+.footer-imgs-sub1 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
 }
 
 /********** Desktop Styles *************/
@@ -207,7 +249,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 
 /* Full Page Formatting */
 body {
-    margin: 0em 2em 0em 2em;
+    margin: 0em 0.5em 0em 0.5em;
 }
 
 /* Nav items */
@@ -223,5 +265,17 @@ body {
 .mca-logo-header {
     height: 69.67px;
     width:170px;
+}
+
+/* FOOTER */
+.footer-imgs {
+    flex-direction: row;
+}
+
+.footer-imgs-sub1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
 }
 }
