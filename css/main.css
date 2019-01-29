@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Nanum+Gothic|Noto+Sans+KR|Rajdhani');
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Catamaran', sans-serif;
+*/
+
+
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
@@ -29,6 +38,7 @@ a {
     height: 100%;
     overflow: hidden;
     position: relative;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 /* Nav items */
