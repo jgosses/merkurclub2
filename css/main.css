@@ -161,6 +161,8 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 .main-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: 10px;
 }
 
 #main-title {
@@ -174,6 +176,18 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     display: flex;
     justify-content: center;
     margin: 1em 0em;
+}
+
+.slider-xr {
+    width: 320px;
+    height: 239px;
+    position: relative;
+    left: 1.2em;
+}
+
+#slider-cars {
+    position: relative;
+    align-items: center;
 }
 
 /* FOOTER */
@@ -277,6 +291,9 @@ body {
     height: 69.67px;
     width:170px;
 }
+
+/* Main Content */
+
 
 /* FOOTER */
 .footer-imgs {
