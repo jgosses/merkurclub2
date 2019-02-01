@@ -86,9 +86,17 @@
         </div>
         <script src="siema-1.5.1/dist/siema.min.js"></script>
         <script>
-            const mySiema = new Siema();
-            document.querySelector('prev').addEventListener('click', () => mySiema.prev());
-            document.querySelector('next').addEventListener('click', () => mySiema.next());
+            const mySiema = new Siema({
+                perPage: {
+                    0: 1,
+                    700: 2,
+                    1240: 3,
+                },
+                duration: 600,
+                loop: true,
+            });
+            document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
+            document.querySelector('.next').addEventListener('click', () => mySiema.next());
         </script>
     </body>
 </html>
