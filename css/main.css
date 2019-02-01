@@ -178,11 +178,36 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     margin: 1em 0em;
 }
 
+/* Carousel */
 .slider-xr {
     width: 320px;
     height: 239px;
     position: relative;
     left: 1.2em;
+}
+
+.carousel_img_cont {
+    display: flex;
+    justify-content: center;
+}
+
+.button_contain {
+    display: flex;
+    padding: 6px 10px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+button:hover {
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 13px;
+    background-color: lightgray;
 }
 
 /* FOOTER */
