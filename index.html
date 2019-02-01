@@ -43,6 +43,14 @@
             </div>
                 <main class="main-container">
                     <h1 id="main-title">Merkur Club of America</h1>
+                    <div class="siema">
+                        <div><img class="slider-xr" src="images/car_images/lightning.jpg" alt="xr-with-lightning"></div>
+                        <div><img class="slider-xr" src="images/car_images/bluegrayxr.jpg" alt="blue-xr-louvers"></div>
+                        <div><img class="slider-xr" src="images/car_images/jimsxrphoto.jpg" alt="red-xr"></div>
+                        <div><img class="slider-xr" src="images/car_images/xr_with_trophy.jpg" alt="xr-with-trophy"></div>
+                    </div>
+                    <button class="prev">prev</button>
+                    <button class="next">next</button>
                 </main>
                 <footer>
                     <div class="footer-container">
@@ -76,5 +84,11 @@
                     </div>
                 </footer>
         </div>
+        <script src="siema-1.5.1/dist/siema.min.js"></script>
+        <script>
+            const mySiema = new Siema();
+            document.querySelector('prev').addEventListener('click', () => mySiema.prev());
+            document.querySelector('next').addEventListener('click', () => mySiema.next());
+        </script>
     </body>
 </html>
