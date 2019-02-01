@@ -185,11 +185,6 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     left: 1.2em;
 }
 
-#slider-cars {
-    position: relative;
-    align-items: center;
-}
-
 /* FOOTER */
 .footer-container {
     display: block;

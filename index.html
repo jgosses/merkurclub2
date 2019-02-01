@@ -6,8 +6,6 @@
         <meta name="description" content="The Merkur Club of America is a Nationwide, Independent, Non-Profit Association of owners and enthusiasts dedicated to the preservation and enjoyment of the Merkur Scorpio and XR4Ti automobiles."/>
         <meta name="viewport" content="width=device-width", initial-scale="1"/>
         <link href="css/main.css" rel="stylesheet">
-        <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-        <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
     </head>
     <body>
         <div id="container">
@@ -45,24 +43,6 @@
             </div>
                 <main class="main-container">
                     <h1 id="main-title">Merkur Club of America</h1>
-                    <div class="glide">
-                        <div class="glide__track" data-glide-el="track">
-                          <ul class="glide__slides" id="slider-cars">
-                            <li class="glide__slide" id="slider-width-cars"><img class="slider-xr" src="images/car_images/jimsxrphoto.jpg" alt="red-xr"></li>
-                            <li class="glide__slide" id="slider-width-cars"><img class="slider-xr" src="images/car_images/bluegrayxr.jpg" alt="slider-xr"></li>
-                            <li class="glide__slide" id="slider-width-cars"><img class="slider-xr" src="images/car_images/lightning.jpg" alt="slider-xr"></li>
-                          </ul>
-                        </div>
-                        <div class="glide__arrows" data-glide-el="controls">
-                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-                        </div>
-                        <div class="glide__bullets" data-glide-el="controls[nav]">
-                            <button class="glide__bullet" data-glide-dir="=0"></button>
-                            <button class="glide__bullet" data-glide-dir="=1"></button>
-                            <button class="glide__bullet" data-glide-dir="=2"></button>
-                        </div>
-                    </div>
                 </main>
                 <footer>
                     <div class="footer-container">
@@ -96,22 +76,5 @@
                     </div>
                 </footer>
         </div>
-    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
-
-    <script>
-        new Glide('.glide', {
-            type: 'carousel',
-            startAt: 0,
-            perView: 3,
-            breakpoints: {
-                990: {
-                    perView: 2
-                },
-                680: {
-                    perView: 1
-                },
-            }
-        }).mount()
-    </script>
     </body>
 </html>
