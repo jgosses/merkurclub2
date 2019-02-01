@@ -178,6 +178,41 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     margin: 1em 0em;
 }
 
+/* Intro Banner */
+.intro-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 11em;
+}
+
+.intro-banner h2 {
+    font-size: 30px;
+}
+
+.intro-banner p {
+    font-size: 20px;
+    padding: 0px 28px;
+}
+
+/* Events Page */
+.events-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-snippet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-snippet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Carousel */
 .slider-xr {
     width: 320px;
@@ -280,6 +315,11 @@ button {
     right: 10px;
     bottom: 10px;
 }
+
+/* Events Page */
+.event-snippet {
+    padding: 0em 4em;
+}
 /* FOOTER */
 .footer-imgs-sub1 {
     display: flex;
@@ -313,6 +353,11 @@ body {
 }
 
 /* Main Content */
+
+/* Events Page */
+.event-snippet {
+    padding: 0em 8em;
+}
 
 
 /* FOOTER */
