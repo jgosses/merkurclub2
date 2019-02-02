@@ -206,6 +206,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 19px;
 }
 
 .location-snippet {
