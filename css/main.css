@@ -183,7 +183,8 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 11em;
+    height: 14em;
+    justify-content: center;
 }
 
 .intro-banner h2 {
@@ -192,7 +193,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 
 .intro-banner p {
     font-size: 20px;
-    padding: 0px 28px;
+    padding: 2px 20px;
 }
 
 /* Events Page */
