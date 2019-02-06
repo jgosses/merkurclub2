@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    height: 64em;
+    height: 68em;
 }
 
 *, *:before, *:after {
@@ -194,6 +194,12 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 .intro-banner p {
     font-size: 20px;
     padding: 2px 20px;
+}
+
+.intro-banner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Events Page */
