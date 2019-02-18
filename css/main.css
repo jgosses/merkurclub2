@@ -157,6 +157,14 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     padding: 6px;
 }
 
+.desktop_title {
+    display: none;
+}
+
+.desktop_nav {
+    display: none;
+}
+
 /* Main Content */
 .main-container {
     display: flex;
@@ -349,15 +357,32 @@ body {
 #main-title {
     width: 100%;
     position: relative;
-    bottom: 1.2em;
+    bottom: 0.2em;
     left: 10px;
     font-size: 50px;
+    display: flex;
+}
+
+.desktop_nav {
+    display: flex;
+}
+
+.desktop-ul {
+    display: flex;
 }
 
 /* Header */
 .mca-logo-header {
     height: 69.67px;
     width:170px;
+}
+
+.desktop-header-config {
+    width: 74em;
+}
+
+.full-nav {
+    display: none;
 }
 
 /* Main Content */
