@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    height: 68em;
+    height: 100em;
 }
 
 *, *:before, *:after {
@@ -27,6 +27,15 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+
+p a:hover {
+    background-color: lightblue;
+    text-decoration: underline;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 #container {
@@ -73,6 +82,8 @@ header {
 .logo-bring-home {
     position: absolute;
     z-index: 1;
+    width: 150px;
+    height: 60px;
 }
 
 .full-nav {
@@ -171,19 +182,21 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     justify-content: center;
     flex-direction: column;
     margin: 10px;
+    font-size: 22px;
 }
 
 #main-title {
     display: flex;
     justify-content: center;
-    font-size: 25px;
-    width: 16em;
+    font-size: 32px;
+    width: 100%;
 }
 
 #sub-title {
     display: flex;
     justify-content: center;
-    margin: 1em 0em;
+    margin: 10px;
+    font-size: 27px;
 }
 
 /* Intro Banner */
@@ -227,6 +240,28 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+ /* Contact Us Page */
+.contactus_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .5em;
+}
+
+/* Membership Page */
+
+.membership-para {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+li.membership-list-sellers {
+    list-style-type: inherit;
+    position: relative;
+    left: 2em;
+    max-width: 80%;
 }
 
 /* Carousel */
@@ -378,7 +413,7 @@ body {
 }
 
 .desktop-header-config {
-    width: 74em;
+    width: 80em;
 }
 
 .full-nav {
