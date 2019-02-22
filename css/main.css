@@ -196,7 +196,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     display: flex;
     justify-content: center;
     margin: 10px;
-    font-size: 27px;
+    font-size: 35px;
 }
 
 /* Intro Banner */
@@ -204,8 +204,8 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 14em;
-    justify-content: center;
+    height: 12em;
+    /* justify-content: center; */
 }
 
 .intro-banner h2 {
@@ -233,7 +233,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 19px;
+    font-size: 22px;
 }
 
 .location-snippet {
@@ -270,6 +270,7 @@ li.membership-list-sellers {
     height: 239px;
     position: relative;
     left: 1.2em;
+    border-radius: 5px;
 }
 
 .carousel_img_cont {
@@ -413,7 +414,7 @@ body {
 }
 
 .desktop-header-config {
-    width: 80em;
+    width: 100em;
 }
 
 .full-nav {
@@ -421,6 +422,9 @@ body {
 }
 
 /* Main Content */
+.carousel_img_cont {
+    width: 15em;
+}
 
 /* Events Page */
 .event-snippet {

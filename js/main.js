@@ -3,6 +3,8 @@ const mySiema = new Siema({
         0: 1,
         700: 2,
         1240: 3,
+        1700: 4,
+        2300: 5,
     },
     duration: 600,
     loop: true,
