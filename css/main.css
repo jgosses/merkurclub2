@@ -320,7 +320,8 @@ button {
 /* FOOTER */
 .footer-container {
     display: block;
-    height: 25em;
+    /* height: 25em; */
+    position: relative;
 }
 
 .footer-title {
@@ -379,9 +380,10 @@ button {
 }
 .social-media-group2 {
     display: flex;
-    width: 100px;
+    width: 240px;
     justify-content: space-between;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    align-items: center;
 }
 
 .social-media-indiv {
