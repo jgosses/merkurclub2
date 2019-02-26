@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    height: 100em;
+    height: 130em;
 }
 
 *, *:before, *:after {
@@ -282,6 +282,28 @@ li.membership-list-sellers {
     position: relative;
     left: 2em;
     max-width: 80%;
+}
+
+.mem-h3 {
+    margin: 10px 0px 10px 0px;
+}
+.mem-bene {
+    margin: 10px 0px 10px 0px;
+}
+
+#join-grabber {
+    font-size: 30px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    border-style: groove;
+}
+
+#paypal-grabber {
+    font-size: 30px;
+    color: darkcyan;
+    display: flex;
+    justify-content: center;
 }
 
 /* Carousel */
