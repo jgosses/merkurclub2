@@ -165,7 +165,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 .header-li {
     list-style-type: none;
     font-size: 30px;
-    padding: 6px;
+    padding: 0px 6px;
 }
 
 .desktop_title {
