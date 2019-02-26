@@ -152,7 +152,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 .nav-list {
     background-color: #79a9c5;
     position: absolute;
-    margin: -200px 0 0 -210px;
+    margin: -350px 0 0 -210px; /* previously this was -200 instead of -350px */
     padding: 20px;
     padding-top: 305px;
     transform-origin: 0% 0%;
