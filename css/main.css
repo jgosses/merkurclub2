@@ -17,7 +17,8 @@ html {
 }
 
 body {
-    height: 130em;
+    /* height: 130em; */
+    height: 100%;
 }
 
 *, *:before, *:after {
@@ -30,12 +31,13 @@ a {
 }
 
 p a:hover {
-    background-color: lightblue;
     text-decoration: underline;
+    color: #cc2530;
 }
 
 li a:hover {
     text-decoration: underline;
+    color: #cc2530;
 }
 
 #container {
@@ -48,6 +50,7 @@ li a:hover {
     overflow: hidden;
     position: relative;
     font-family: 'Rajdhani', sans-serif;
+    background-color: #acbebe;
 }
 
 /* Nav items */
@@ -181,7 +184,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 10px;
+    /* margin: 10px; */
     font-size: 22px;
 }
 
@@ -234,12 +237,25 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     flex-direction: column;
     align-items: center;
     font-size: 22px;
+    padding: 1em 4em;
+    margin: 10px 0px;
+}
+
+.event-desc {
+    padding: 10px;
 }
 
 .location-snippet {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px 0px;
+    padding: 1em;
+}
+
+#content-sect {
+    background-color: #f4f4ef;
+    border-style: groove;
 }
  /* Contact Us Page */
 .contactus_main {
@@ -311,13 +327,13 @@ li.membership-list-sellers {
     width: 320px;
     height: 239px;
     position: relative;
-    left: 1.2em;
+    /* left: 1.2em; */
     border-radius: 5px;
+    margin: 0px 15px;
 }
 
 .carousel_img_cont {
     display: flex;
-    justify-content: center;
 }
 
 .button_contain {
@@ -329,14 +345,16 @@ li.membership-list-sellers {
 }
 
 button:hover {
-    background-color: lightblue;
+    background-color: lightgray;
     font-weight: bold;
+    color: red;
 }
 
 button {
     border-radius: 10px;
     font-size: 13px;
     background-color: lightgray;
+    color: black;
 }
 
 /* FOOTER */
@@ -437,9 +455,13 @@ button {
     font-size: 49px;
 }
 
+.carousel_img_cont {
+    justify-content: center;
+}
+
 /* Events Page */
 .event-snippet {
-    padding: 0em 4em;
+    padding: 1em 4em;
 }
 /* FOOTER */
 .footer-imgs-sub1 {
@@ -501,7 +523,7 @@ body {
 
 /* Events Page */
 .event-snippet {
-    padding: 0em 8em;
+    padding: 2em 8em;
 }
 
 /* Contact Us Page */
