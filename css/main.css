@@ -186,6 +186,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     flex-direction: column;
     /* margin: 10px; */
     font-size: 22px;
+    width: 100%;
 }
 
 #main-title {
@@ -231,7 +232,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 .attention {
     font-size: 30px;
     font-weight: bold;
-    line-height: 60px;
+    margin: 15px 5px;
 }
 
 .attention a:hover {
