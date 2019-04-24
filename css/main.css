@@ -26,7 +26,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
@@ -38,6 +38,10 @@ p a:hover {
 li a:hover {
     text-decoration: underline;
     color: #cc2530;
+}
+
+li a {
+    text-decoration: none;
 }
 
 #container {
@@ -251,7 +255,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     flex-direction: column;
     align-items: center;
     font-size: 22px;
-    padding: 1em 2em;
+    padding: 1em /*2em */;
     margin: 10px 0px;
 }
 
@@ -301,7 +305,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 #content-sect {
     background-color: #f4f4ef;
     border-style: groove;
-    margin: 1.5em; /*testing this out */
+    margin: 0.5em;
 }
  /* Contact Us Page */
 .contactus_main {
@@ -520,10 +524,15 @@ button {
     justify-content: center;
 }
 
+#content-sect {
+    padding: 1.5em;
+}
+
 /* Events Page */
 .event-snippet {
     padding: 1em 4em;
 }
+
 /* FOOTER */
 .footer-imgs-sub1 {
     display: flex;
