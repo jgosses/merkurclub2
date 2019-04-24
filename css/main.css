@@ -394,7 +394,7 @@ li.membership-list-sellers {
     position: relative;
     /* left: 1.2em; */
     border-radius: 5px;
-    margin: 0px 45px;
+    margin: 0px 40px;
 }
 
 .carousel_img_cont {
@@ -523,6 +523,10 @@ button {
 .carousel_img_cont {
     justify-content: center;
 }
+.slider-xr {
+    margin: 0px 45px;
+}
+
 
 #content-sect {
     padding: 1.5em;
@@ -568,6 +572,7 @@ button {
     display: flex;
 }
 
+
 /* Header */
 .mca-logo-header {
     height: 69.67px;
@@ -585,6 +590,10 @@ button {
 /* Main Content */
 .carousel_img_cont {
     width: 15em;
+}
+
+.slider-xr {
+    margin: 0px 45px;
 }
 
 .intro-banner h2 {
