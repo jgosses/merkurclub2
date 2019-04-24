@@ -368,6 +368,21 @@ li.membership-list-sellers {
     justify-content: center;
 }
 
+/* join MCA page */
+
+.join-mca-intro-para {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.join-mca-intro-para p {
+    padding: 15px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
 /* Carousel */
 .slider-xr {
     width: 320px;
