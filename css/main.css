@@ -387,6 +387,22 @@ li.membership-list-sellers {
     background-color: yellow;
 }
 
+/* Resources Page */
+.grid-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.resource-grid {
+    display: flex;
+}
+
+.resource-grid-content {
+    border-style: solid;
+    width: 100%;
+}
 /* Carousel */
 .slider-xr {
     width: 320px;
@@ -529,12 +545,17 @@ button {
 
 
 #content-sect {
-    padding: 1.5em;
+    margin: 1.5em;
 }
 
 /* Events Page */
 .event-snippet {
     padding: 1em 4em;
+}
+
+/* resources page */
+.grid-list {
+    flex-direction: row;
 }
 
 /* FOOTER */
@@ -621,6 +642,11 @@ button {
 .contactus_main_sub {
     width: 28em;
     margin: 2px 0px;
+}
+
+/* resources page */
+.grid-list {
+    flex-direction: row;
 }
 
 /* FOOTER */
