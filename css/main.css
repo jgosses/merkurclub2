@@ -219,11 +219,13 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 
 .intro-banner h2 {
     font-size: 40px;
+    text-align: center;
 }
 
 .intro-banner p {
     font-size: 24px;
     padding: 6px 20px;
+    text-align: center;
 }
 
 .intro-banner2 {
@@ -231,6 +233,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    text-align: center;
 }
 
 .attention {
@@ -395,12 +398,24 @@ li.membership-list-sellers {
     align-items: center;
     text-align: center;
 }
+
+#grid-list-mobile {
+    height: 100%;
+}
+
 .resource-grid {
     display: flex;
 }
 
 .resource-grid-content {
     border-style: solid;
+    width: 100%;
+    height: 100%;
+}
+
+.multiple-resource {
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 /* Carousel */
@@ -558,6 +573,14 @@ button {
     flex-direction: row;
 }
 
+.multiple-resource {
+    flex-direction: column;
+}
+
+#history_border {
+    border-style: none;
+}
+
 /* FOOTER */
 .footer-imgs-sub1 {
     display: flex;
@@ -647,6 +670,14 @@ button {
 /* resources page */
 .grid-list {
     flex-direction: row;
+}
+
+.multiple-resource {
+    flex-direction: column;
+}
+
+#history_border {
+    border-style: none;
 }
 
 /* FOOTER */
