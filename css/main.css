@@ -366,6 +366,7 @@ li.membership-list-sellers {
     display: flex;
     justify-content: center;
     border-style: groove;
+    text-align: center;
 }
 
 #paypal-grabber {
@@ -417,6 +418,14 @@ li.membership-list-sellers {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+#resource-link {
+    padding: 10px 0px;
+}
+
+#history_border {
+    padding: 10px 0px;
 }
 /* Carousel */
 .slider-xr {
@@ -551,6 +560,10 @@ button {
     font-size: 49px;
 }
 
+.intro-banner p {
+    text-align: left;
+}
+
 .carousel_img_cont {
     justify-content: center;
 }
@@ -642,6 +655,10 @@ button {
 
 .intro-banner h2 {
     font-size: 60px;
+}
+
+.intro-banner p {
+    text-align: left;
 }
 
 /* Events Page */
