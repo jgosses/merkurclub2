@@ -415,10 +415,26 @@ li.membership-list-sellers {
     display: flex;
 }
 
+.resource-grid-scorpio {
+    display: flex;
+    flex-direction: column;
+}
+
 .resource-grid-content {
     border-style: solid;
     width: 100%;
     height: 100%;
+}
+
+.resource-grid-content2 {
+    border-style: solid;
+    height: 100%;
+    width: 100%;
+}
+
+.grid-divide {
+    display: flex;
+    flex-direction: column;
 }
 
 .multiple-resource {
@@ -433,6 +449,15 @@ li.membership-list-sellers {
 
 #history_border {
     padding: 10px 0px;
+}
+
+#resource-link2 {
+    padding: 10px;
+    height: 3em;
+}
+
+.resource-grid-title {
+    width: 100%;
 }
 /* Carousel */
 .slider-xr {
@@ -601,6 +626,10 @@ button {
     border-style: none;
 }
 
+#resource-link2 {
+    height: 6em;
+}
+
 /* FOOTER */
 .footer-imgs-sub1 {
     display: flex;
@@ -707,6 +736,10 @@ button {
 
 #history_border {
     border-style: none;
+}
+
+#resource-link2 {
+    height: 6em;
 }
 
 /* FOOTER */
