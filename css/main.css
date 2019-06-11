@@ -398,6 +398,12 @@ li.membership-list-sellers {
     background-color: yellow;
 }
 
+.paypal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 /* Resources Page */
 .grid-list {
     display: flex;
