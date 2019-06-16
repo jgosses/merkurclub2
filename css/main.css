@@ -207,6 +207,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     justify-content: center;
     font-size: 32px;
     width: 100%;
+    text-align: center;
 }
 
 #sub-title {
@@ -246,7 +247,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 }
 
 .attention {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: bold;
     margin: 15px 5px;
 }
@@ -613,9 +614,9 @@ button {
     font-size: 49px;
 }
 
-.intro-banner p {
+/* .intro-banner p {
     text-align: left;
-}
+} */
 
 .carousel_img_cont {
     justify-content: center;
@@ -630,9 +631,9 @@ button {
 }
 
 /* Events Page */
-.event-snippet {
+/* .event-snippet {
     padding: 1em 4em;
-}
+}*/
 
 /* resources page */
 .grid-list {
