@@ -36,6 +36,7 @@ body {
 a {
     text-decoration: underline;
     color: black;
+    text-underline-position: under;
 }
 
 p a:hover {
