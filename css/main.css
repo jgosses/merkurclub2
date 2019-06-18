@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran|Nanum+Gothic|Noto+Sans+KR|Rajdhani');
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Nanum+Gothic:400,700,800|Noto+Sans+KR|Rajdhani');
 /*
 font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Noto Sans KR', sans-serif;
@@ -34,18 +34,20 @@ body {
 }
 
 a {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: black;
-    text-underline-position: under;
+    text-underline-position: auto;
 }
 
 p a:hover {
     text-decoration: underline;
+    /* text-underline-position: under; */
     color: #cc2530;
 }
 
 li a:hover {
     text-decoration: underline;
+    /* text-underline-position: under; */
     color: #cc2530;
 }
 
@@ -276,6 +278,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 .event-title {
     font-size: 27px;
     margin: 5px 0px;
+    text-align: center;
 }
 
 .event-desc {
@@ -378,6 +381,7 @@ li.membership-list-sellers {
     justify-content: center;
     border-style: groove;
     text-align: center;
+    padding: 0px 0px 10px 0px;
 }
 
 #paypal-grabber {
@@ -696,8 +700,8 @@ button {
 
 /* Header */
 .mca-logo-header {
-    height: 69.67px;
-    width:170px;
+    height: 99.67px;
+    width:195px;
 }
 
 .desktop-header-config {
