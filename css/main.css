@@ -679,10 +679,11 @@ button {
 #main-title {
     width: 100%;
     position: relative;
-    bottom: 0.2em;
+    bottom: 1.2em;
     left: 10px;
     font-size: 50px;
     display: flex;
+    margin: 20px 0px;
 }
 
 .desktop_nav {
