@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Rajdhani');
-@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Rajdhani');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap');
 /*
 font-family: 'Rajdhani', sans-serif;
 font-family: 'DM Serif Display', serif;
@@ -22,9 +23,14 @@ body {
     height: 100%;
     overflow: scroll;
     position: relative;
-    font-family: 'Rajdhani', sans-serif;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     background-color: #acbebe;
     z-index: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
 }
 
 *, *:before, *:after {
@@ -62,7 +68,8 @@ li a {
     height: 100%;
     overflow: hidden;
     position: relative;
-    font-family: 'Rajdhani', sans-serif;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     background-color: #acbebe;
 }
 
@@ -208,7 +215,8 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     font-size: 32px;
     width: 100%;
     text-align: center;
-    font-family: 'DM Serif Display', serif;
+    /* font-family: 'DM Serif Display', serif; */
+    font-family: 'Poppins', sans-serif;
 }
 
 #sub-title {
@@ -277,6 +285,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     font-size: 27px;
     margin: 5px 0px;
     text-align: center;
+    font-weight: 500;
 }
 
 .event-desc {
@@ -318,7 +327,8 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 }
 
 #content-sect {
-    background-color: #f4f4ef;
+    /* background-color: #f4f4ef; */
+    background-color:#d8d8d4;
     border-style: groove;
     margin: 0.5em;
 }
