@@ -39,7 +39,8 @@ h1, h2, h3, h4, h5 {
 
 a {
     /* text-decoration: underline; */
-    color: black;
+    /* color: black; */
+    color: ghostwhite;
     /* text-underline-position: auto; */
 }
 
@@ -52,6 +53,11 @@ p a:hover {
 li a:hover {
     text-decoration: underline;
     /* text-underline-position: under; */
+    color: #cc2530;
+}
+
+h3 a:hover {
+    text-decoration: underline;
     color: #cc2530;
 }
 
@@ -266,6 +272,11 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     text-decoration-line: underline;
 }
 
+.grabber-photo-click {
+    margin: 20px;
+    font-style: italic;
+}
+
 /* Events Page */
 .events-main {
     display: flex;
@@ -308,6 +319,10 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 .location-snippet a:hover {
     color: #cc2530;
     text-decoration-line: underline;
+}
+
+.steps-link {
+    font-size: 23px;
 }
 
 .event-snippet h4 {
@@ -390,6 +405,18 @@ li.membership-list-sellers {
     border-style: groove;
     text-align: center;
     padding: 0px 0px 10px 0px;
+}
+
+#join-grabber a {
+    color: black;
+}
+
+#join-grabber a:hover {
+    color: #cc2530;
+}
+
+#join-grabber:hover {
+    background-color: white;
 }
 
 #paypal-grabber {
@@ -648,6 +675,10 @@ button {
     padding: 1em 4em;
 }*/
 
+.steps-link {
+    font-size: 26px;
+}
+
 /* resources page */
 .grid-list {
     flex-direction: row;
@@ -745,6 +776,10 @@ button {
 /* Events Page */
 .event-snippet {
     padding: 2em 8em;
+}
+
+.steps-link {
+    font-size: 26px;
 }
 
 /* Contact Us Page */
