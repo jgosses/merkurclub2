@@ -194,7 +194,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 .header-li {
     list-style-type: none;
     font-size: 30px;
-    padding: 0px 6px;
+    padding: 0px 10px;
 }
 
 .desktop_title {
@@ -248,7 +248,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 }
 
 .intro-banner p {
-    font-size: 22px;
+    font-size: 20px;
     padding: 6px 20px;
     text-align: center;
 }
@@ -301,7 +301,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 
 .event-desc {
     padding: 10px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .location-snippet {
@@ -310,6 +310,10 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     align-items: center;
     margin: 10px 0px;
     padding: 1em;
+}
+
+.steps-event-sect {
+    text-align: center;
 }
 
 .location-snippet p {
@@ -651,7 +655,7 @@ button {
 }
 /* home page */
 .intro-banner h2 {
-    font-size: 49px;
+    font-size: 42px;
 }
 
 /* .intro-banner p {
@@ -671,9 +675,10 @@ button {
 }
 
 /* Events Page */
-/* .event-snippet {
-    padding: 1em 4em;
-}*/
+.event-desc {
+    padding: 10px;
+    font-size: 24px;
+}
 
 .steps-link {
     font-size: 26px;
@@ -718,7 +723,7 @@ button {
     width: 100%;
     position: relative;
     bottom: 1.2em;
-    left: 10px;
+    left: 30px;
     font-size: 50px;
     display: flex;
     margin: 20px 0px;
@@ -780,6 +785,11 @@ button {
 
 .steps-link {
     font-size: 26px;
+}
+
+.event-desc {
+    padding: 10px;
+    font-size: 24px;
 }
 
 /* Contact Us Page */
