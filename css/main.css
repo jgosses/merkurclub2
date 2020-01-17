@@ -526,6 +526,7 @@ li.membership-list-sellers {
     width: 100%;
 }
 /* Carousel */
+
 .slider-xr {
     width: 320px;
     height: 239px;
@@ -701,6 +702,15 @@ button {
     height: 7em;
 }
 
+/* secondary main page test slider */
+/* .mySlides2 {
+    display: flex;
+    /* max-width: 50%;
+    height: 18em;
+    margin: 10px;
+}
+*/
+
 /* FOOTER */
 .footer-imgs-sub1 {
     display: flex;
@@ -778,6 +788,13 @@ button {
     text-align: left;
 }
 
+/* secondary main page slider */
+.mySlides2 {
+    display: flex;
+    /* max-width: 50%; */
+    height: 18em;
+    margin: 10px;
+}
 /* Events Page */
 .event-snippet {
     padding: 2em 8em;
