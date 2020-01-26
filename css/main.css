@@ -232,6 +232,10 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     font-size: 35px;
 }
 
+.within-para-link {
+    color: teal;
+}
+
 /* Intro Banner */
 .intro-banner {
     display: flex;
@@ -841,7 +845,7 @@ button {
 }
 
 #resource-link2 {
-    height: 3em;
+    height: 4em;
 }
 
 /* join MCA page */
