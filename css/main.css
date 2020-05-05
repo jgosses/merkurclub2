@@ -6,6 +6,11 @@ font-family: 'Rajdhani', sans-serif;
 font-family: 'DM Serif Display', serif;
 */
 
+/* for any urgent messages/updates, use below: */
+.urgent {
+    background-color: yellow;
+    padding: .5em;
+}
 
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
     margin: 0;
