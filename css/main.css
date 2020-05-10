@@ -360,6 +360,14 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     border-style: groove;
     margin: 0.5em;
 }
+/* FAQ Page */
+.showfield-lists {
+    margin: 0px 80px;
+}
+
+.faq-links {
+    color: teal;
+}
  /* Contact Us Page */
 .contactus_main {
     display: flex;
@@ -384,7 +392,8 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     width: 30em;
 }
 .contact-link {
-    color: #344d90;
+    /* color: #344d90; */
+    color: teal;
 }
 
 /* Membership Page */
@@ -756,13 +765,19 @@ button {
     display: flex;
     position: sticky;
     top: 0px;
-    z-index: 1;
+    z-index: 2;
     background-color: #acbebe;
     justify-content: flex-end;
 }
 
 .desktop-ul {
     display: flex;
+}
+
+.header-li {
+    display: flex;
+    text-align: center;
+    padding: 0px 8px;
 }
 
 
