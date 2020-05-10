@@ -362,7 +362,7 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
 }
 /* FAQ Page */
 .showfield-lists {
-    margin: 0px 80px;
+    margin: 0px 10px;
 }
 
 .faq-links {
@@ -703,6 +703,11 @@ button {
     font-size: 26px;
 }
 
+/* FAQ Page */
+.showfield-lists {
+    margin: 0px 20px;
+}
+
 /* resources page */
 .grid-list {
     flex-direction: row;
@@ -885,5 +890,9 @@ button {
     justify-content: space-evenly;
     align-items: center;
     width: 80%;
+}
+
+.showfield-lists {
+    margin: 0px 80px;
 }
 }
