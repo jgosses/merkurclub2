@@ -585,6 +585,7 @@ button {
 .payment-done {
     display: flex;
     justify-content: center;
+    margin: 1em 0em;
 }
 
 /* FOOTER */
