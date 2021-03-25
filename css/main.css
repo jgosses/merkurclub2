@@ -580,6 +580,13 @@ button {
     color: black;
 }
 
+/* payment received */
+
+.payment-done {
+    display: flex;
+    justify-content: center;
+}
+
 /* FOOTER */
 .footer-container {
     display: block;
