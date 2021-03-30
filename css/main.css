@@ -287,6 +287,12 @@ header .full-nav input:checked ~ span:nth-last-child(2) {
     font-style: italic;
 }
 
+/* Instagram feed */
+.instagram-feed {
+    height: 100%;
+    width: 100%;
+}
+
 /* Events Page */
 .events-main {
     display: flex;
